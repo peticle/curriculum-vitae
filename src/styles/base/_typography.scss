@@ -1,0 +1,10 @@
+@use "@fontsource/inter/300.css" as Inter300;
+@use "@fontsource/inter/400.css" as Inter400;
+@use "@fontsource/inter/500.css" as Inter500;
+@use "@fontsource/inter/700.css" as Inter700;
+
+body {
+  color: var(--theme-clr-black);
+  font-family: "Inter", arial;
+  font-size: 14px;
+}

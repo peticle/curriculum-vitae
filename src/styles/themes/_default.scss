@@ -1,0 +1,18 @@
+$theme-clr-white: #a9b1d6;
+$theme-clr-gray: #1a1b26;
+$theme-clr-black: #15161e;
+$theme-clr-primary: #f7768e;
+$theme-clr-light: #fafafa;
+$theme-clr-dark: $theme-clr-black;
+$theme-clr-foreground: #c0caf5;
+$theme-clr-background: $theme-clr-gray;
+$theme-clr: (
+  "white": $theme-clr-white,
+  "gray": $theme-clr-gray,
+  "black": $theme-clr-black,
+  "primary": $theme-clr-primary,
+  "light": $theme-clr-light,
+  "dark": $theme-clr-dark,
+  "foreground": $theme-clr-foreground,
+  "background": $theme-clr-background,
+);

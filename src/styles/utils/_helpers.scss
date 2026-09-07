@@ -1,0 +1,16 @@
+@use "@/styles/themes/default";
+
+:root {
+  @each $clr-key, $clr-val in default.$theme-clr {
+    --theme-clr-#{$clr-key}: #{$clr-val};
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
