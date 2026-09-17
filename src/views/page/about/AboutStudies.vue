@@ -15,9 +15,16 @@ import { DotList, DotListPeriod, SectionTitle } from "@/components";
         <template #subtitle>Haute École Arc de Neuchâtel</template>
         <template #period>2020 &ndash; 2023</template>
         <template #description>
-          <strong>Travail de bachelor pour Swiss Timing : </strong>
-          création d'un système de stabilisation en temps réel du flux vidéo de caméras statiques,
-          réalisé en Python avec OpenCV.
+          <p>
+            <strong>Travail intermédiaire pour Precitool SA : </strong>
+            création d'un outil en Python pour extraire les mesures mathématiques de pièces
+            réalisées avec Autodesk Inventor.
+          </p>
+          <p>
+            <strong>Travail de bachelor pour Swiss Timing : </strong>
+            création d'un système de stabilisation en temps réel du flux vidéo de caméras statiques,
+            réalisé en Python avec OpenCV.
+          </p>
         </template>
       </DotListPeriod>
       <DotListPeriod>
